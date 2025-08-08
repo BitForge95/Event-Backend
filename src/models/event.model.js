@@ -24,4 +24,4 @@ const eventSchema = new Schema({
     },
 })
 
-export const userEvent = mongoose.model("userEvent", eventSchema)
+export const UserEvent = mongoose.model("UserEvent", eventSchema)
